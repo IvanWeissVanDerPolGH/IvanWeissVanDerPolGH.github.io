@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+<!-- Navigation Menu -->
 {% if site.show-nav-menu %}
-  {% include nav.html%}
+  {% include nav.html %}
 {% endif %}
 
-<div class="px-4 pt-4 prose prose-{{site.theme-color}}">
-    <h1 class="text-center mt-6 mb-6">{{ page.title }}</h1>
-    {{content}}
+<!-- Main Content -->
+<div class="px-4 pt-4 prose prose-{{site.theme-color}}" role="main">
+    <!-- Page Title -->
+    <h1 class="text-center mt-6 mb-6" id="page-title">{{ page.title }}</h1>
+    <!-- Page Content -->
+    <div aria-labelledby="page-title" class="page-content">
+        {{content}}
+    </div>
 </div>
-
-{% include footer.html %}

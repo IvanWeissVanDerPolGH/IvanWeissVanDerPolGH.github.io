@@ -1,0 +1,114 @@
+:root {
+    --nav-bg-color: var(--primary-color);
+    --nav-text-color: var(--text-color-light);
+    --nav-hover-bg-color: var(--secondary-color);
+    --nav-button-bg-color: var(--background-button-color);
+    --nav-button-hover-bg-color: var(--background-button-hover-color);
+    --nav-padding: 1rem;
+    --nav-logo-height: 7rem;
+    --nav-font-size: 1rem;
+    --nav-item-spacing: 1.25rem;
+
+    --page-background-color: #fff;
+    --page-text-color: #333;
+    --header-footer-bg-color: #f8f9fa;
+    --header-footer-text-color: #495057;
+    --content-heading-color: #212529;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --button-bg-color: var(--primary-color);
+    --button-hover-bg-color: var(--secondary-color);
+    --button-active-bg-color: #0056b3;
+    --button-focus-bg-color: #003580;
+
+    --max-width: 1200px;
+    --container-xs: 100%;
+    --container-sm: 540px;
+    --container-md: 720px;
+    --container-lg: 960px;
+    --container-xl: 1140px;
+    --container-xxl: 1320px;
+    --container-padding: 15px; /* Default padding for containers */
+    --spacing-small: 5px; /* Spacing variables for consistency */
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+    
+    --button-border-radius: 5px;
+    --button-hover-bg-color: var(--secondary-color);
+
+     /* Font Families */
+    --font-sans: 'Helvetica Neue', Arial, sans-serif;
+    --font-serif: 'Times New Roman', serif;
+    --font-mono: 'Courier New', monospace;
+
+    /* Font Sizes */
+    --font-size-base: 16px; /* Base font size */
+    --font-size-sm: 0.875rem; /* 14px, for smaller text */
+    --font-size-md: 1rem; /* 16px, default size */
+    --font-size-lg: 1.25rem; /* 20px, for larger text */
+    --font-size-xl: 1.5rem; /* 24px, for main titles */
+    --font-size-xxl: 2rem; /* 32px, for prominent headers */
+
+    /* Line Heights */
+    --line-height-base: 1.5; /* Normal body text */
+    --line-height-tight: 1.2; /* Tight line height for headings */
+    --line-height-normal: 1.3; /* Slightly more spacious than tight */
+    --line-height-relaxed: 1.4; /* Good for readability on longer texts */
+    --line-height-loose: 1.6; /* Loose line height for decorative purposes */
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 900; /* Added for extra emphasis */
+    
+    --hero-bg-image: url("../../../../assets/img/starry_space.jpg"); /* Define hero image for easy change */
+    --hero-overlay-color: var(--shadow-heavy); /* Define overlay color for easy adjustment */
+    --hero-title-font-size: clamp(2rem, 2.5vw, 3rem); /* Responsive font size */
+    --hero-subtitle-font-size: clamp(1rem, 1.25vw, 1.5rem);
+    --hero-height: 80vh;
+
+    --nav-bg-color: var(--primary-color);
+    --nav-text-color: var(--text-color-light);
+    --nav-hover-bg-color: var(--secondary-color);
+    --nav-button-bg-color: var(--background-button-color);
+    --nav-button-hover-bg-color: var(--background-button-hover-color);
+    --nav-padding: 1rem;
+    --nav-logo-height: 7rem;
+    --nav-font-size: 1rem;
+    --nav-item-spacing: 1.25rem;
+
+    --page-background-color: #fff;
+    --page-text-color: #333;
+    --header-footer-bg-color: #f8f9fa;
+    --header-footer-text-color: #495057;
+    --content-heading-color: #212529;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --button-bg-color: var(--primary-color);
+    --button-hover-bg-color: var(--secondary-color);
+    --button-active-bg-color: #0056b3;
+    --button-focus-bg-color: #003580;
+
+    --max-width: 1200px;
+    --container-xs: 100%;
+    --container-sm: 540px;
+    --container-md: 720px;
+    --container-lg: 960px;
+    --container-xl: 1140px;
+    --container-xxl: 1320px;
+    --container-padding: 15px; /* Default padding for containers */
+    --spacing-small: 5px; /* Spacing variables for consistency */
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+
+    --font-sans: 'Open Sans', sans-serif;
+    --font-serif: 'Merriweather', serif;
+    --font-mono: 'Source Code Pro', monospace;
+    --font-lg: 2rem; /* 32px */
+    --font-md: 1rem; /* 16px */
+    --font-sm: 0.875rem; /* 14px */
+
+    
+}

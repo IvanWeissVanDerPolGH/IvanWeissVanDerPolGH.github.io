@@ -1,7 +1,16 @@
+# Folders to ignore
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
 node_modules/
+test/
+tmp/
+
+# Files to ignore
 .DS_Store
+*.log
+
+# Specific file formats or patterns
+*.sublime-project
+*.sublime-workspace

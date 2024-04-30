@@ -1,0 +1,50 @@
+/* Button Basic Styles */
+.button {
+    
+    padding: 10px 20px;  /* Increased padding for better touch target size */
+    background-color: var(--primary-color);
+    color: var(--text-color-light);  /* Changed for better contrast */
+    font-family: var(--font-sans);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--button-border-radius);
+    border: none;  /* Remove border */
+    cursor: pointer;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;  /* Unified transition for all properties */
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+/* Hover and Focus States for better user interaction */
+.button:hover,
+.button:focus {
+    background-color: var(--button-hover-bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Enhanced shadow on hover for depth */
+    transform: translateY(-2px);  /* Slight lift effect */
+    outline: none;  /* Ensuring no outline interferes visually */
+}
+
+/* Active State for a tactile feel */
+.button:active {
+    background-color: darken(var(--button-hover-bg-color), 10%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Lowered shadow to simulate pressing down */
+    transform: translateY(1px);  /* Push down effect */
+}
+
+/* Disabled State for clarity */
+.button:disabled {
+    background-color: lighten(var(--primary-color), 20%);
+    color: var(--text-color-secondary);  /* Dim the text color to show it's disabled */
+    cursor: not-allowed;
+    box-shadow: none;  /* No shadow to flatten the button visually */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .button {
+        padding: 8px 16px;  /* Slightly reduce padding on smaller screens */
+        font-size: var(--font-size-sm);  /* Adjust font size for smaller screens */
+    }
+}

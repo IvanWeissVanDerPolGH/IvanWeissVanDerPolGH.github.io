@@ -1,89 +1,65 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="en-US">
 
 <head>
+  <meta charset="UTF-8">
+  <title>My Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% include head.html %}
+</head>
 
-  <!-- google analytics -->
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
-  <!-- Jekyll SEO plugin -->
-  {% seo %}
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <link rel="icon" href="assets\img\logos\logo_face.png" sizes="32x32">
-  <title>{{ site.title }}</title>
-
-  <!-- TailwindCSS and Inter Font-->
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/tailwind.css">
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  
-    <!-- highlight.js -->
-   <link rel="stylesheet"
-    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
-  
-  <!-- MathJax -->
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      },
-    };
-  </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
- </head>
-
-<body class="font-sans mx-auto max-w-prose">
-  <div class="pt-12 pb-4">
+<body class='main-content'>
     {{ content }}
-  </div>
 </body>
 
 <script>
-  /* Funtion for getting the current year in the footer */
-  (function () {
-    if (document.getElementById("get-current-year")) {
-      document.getElementById(
-        "get-current-year"
-      ).innerHTML = new Date().getFullYear();
-    }
-  })();
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.querySelector('.menu-icon');
+    const navMenu = document.querySelector('.nav-menu');
+    const yearSpan = document.getElementById("get-current-year");
+    const menuIconNav = document.querySelector('.nav-menu-icon');
 
-  /* Function for opning navbar on mobile */
+    // Function for menu icon
+    menuIcon.addEventListener('click', () => {
+        const expanded = menuIcon.getAttribute('aria-expanded') === 'true' || false;
+        menuIcon.setAttribute('aria-expanded', !expanded);
+        navMenu.setAttribute('aria-hidden', expanded);
+    });
+
+    // Function for getting the current year in the footer
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+
+    // Initialize all carousels on page load
+    initializeAllCarousels();
+
+    // Function for opening navbar on mobile
+    menuIconNav.addEventListener('click', () => {
+        navMenu.classList.toggle('block');
+    });
+  });
+
+  // Function for opening navbar on mobile
   function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-    /* Function for dropdowns */
-    function openDropdown(event, dropdownID) {
-      let element = event.target;
-      while (element.nodeName !== "A") {
-        element = element.parentNode;
-      }
-      document.getElementById(dropdownID).classList.toggle("hidden");
-      document.getElementById(dropdownID).classList.toggle("block");
-    }
+    const elem = document.getElementById(collapseID);
+    elem.classList.toggle("hidden");
+    elem.classList.toggle("block");
+  }
 
-  /* Function for show/hide table of content */
+  // Function for dropdowns
+  function openDropdown(event, dropdownID) {
+    const dropdownElem = document.getElementById(dropdownID);
+    dropdownElem.classList.toggle("hidden");
+    dropdownElem.classList.toggle("block");
+  }
+
+  // Function for show/hide table of contents
   function toggleTOC() {
-    var toc = document.getElementById('toc');
-        if (toc.style.display == "block"){ // if toc hidden, display it 
-            toc.style.display = "none";
-        }
-        else{ // if toc displayed, hidden it
-            toc.style.display = "block";
-        }
-    }
+    const toc = document.getElementById('toc');
+    toc.style.display = toc.style.display === "block" ? "none" : "block";
+  }
+
 </script>
 
 </html>

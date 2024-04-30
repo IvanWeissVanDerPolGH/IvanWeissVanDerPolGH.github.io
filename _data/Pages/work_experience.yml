@@ -1,0 +1,60 @@
+layout: page
+title: Work Experience
+permalink: /work-experience/
+
+jobs:
+  - title: "Owner/Operator at 3D-Tech-PY"
+    period: "March 2018 – January 2024"
+    achievements:
+      - name: "Interpersonal Skills"
+        detail: "Managed day-to-day operations, ensuring operational excellence. Conducted routine maintenance of 3D printing equipment."
+      - name: "Software Development"
+        detail: "Created a proprietary system for automated online ad postings using Selenium and Python."
+
+  - title: "Software Tester at WPG.SRL"
+    period: "October 2018 – Present"
+    contributions:
+      - name: "International Collaboration"
+        detail: "Worked with international teams to enhance global testing operations."
+      - name: "Efficiency in Testing"
+        detail: "Utilized Jira for managing and documenting issues, boosting troubleshooting efficiency."
+      - name: "Automation Initiatives"
+        detail: "Developed automated testing scripts that reduced manual testing efforts by 40%."
+      - name: "Python Development"
+        detail: "Created a Python-based XML testing framework and tools for converting XSD to XML-structured Excel files."
+    responsibilities:
+      - category: "Manual Testing"
+        activities:
+          - "Collaborated with international team members."
+          - "Documented customer issue tickets in a local test environment."
+      - category: "Automation of Testing Tasks"
+        activities:
+          - "Developed automated testing scripts using Selenium and Python."
+          - "Integrated tests into the CI pipeline."
+
+  - title: "Quality Specialist II at MentorMate"
+    period: "February 2024 – January 2024"
+    project_name: "Flyte Project: Women's Health Technology"
+    role_details:
+      - name: "Testing and Development"
+        detail: "Led testing efforts using Postman for API testing and Charles Proxy for network simulations."
+      - name: "Data Management"
+        detail: "Automated the process of data extraction and analysis."
+    impact_statement: "Enhanced quality of life for users by providing a non-invasive treatment option managed from home."
+    collaboration_details: "Worked collaboratively with an international team, delivering a high-impact healthcare solution."
+    overview:
+      purpose: "Support women's pelvic floor health through a mobile app and the Flyte wand."
+      business_value: "Provides a comprehensive solution for managing pelvic floor health."
+    features:
+      - name: "Mobile Application"
+        details: "Offers guided therapy sessions and progress tracking."
+      - name: "Provider Portal"
+        details: "Allows healthcare providers to monitor patient therapy progress."
+    technical_aspects:
+      - name: "Technical Specifications"
+        details:
+          - "Integration between mobile app and Provider Portal for real-time data syncing."
+          - "Security features include SSL pinning and secure access protocols."
+    project_reflections:
+      contributions: "Developed automation scripts for data extraction and processing."
+      teamwork: "Collaborated with an international team, enhancing the project with cultural insights."

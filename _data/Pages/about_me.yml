@@ -1,0 +1,119 @@
+layout: page
+title: About Me
+permalink: about
+
+sections:
+  - title: "Introduction"
+    subtitle: "About Me"
+    text: "Hello, I'm Ivan Weiss, a 24-year-old software developer passionate about crafting innovative solutions. With a strong academic background in Software Engineering, I bring a diverse set of skills and expertise to the table."
+    resume_download_link: "path_to_resume.pdf"
+
+
+languagesIntroduction: "I am fluent in English, Spanish, and Dutch, enabling me to communicate effectively with diverse audiences. My language skills have proven invaluable in my professional endeavors, allowing me to collaborate with international teams and engage with clients worldwide."
+
+languages:
+  - name: English
+    flag_path: "/assets/img/flags/usa_flag.png"
+    speech: Native
+    reading: Native
+    writing: Native
+  - name: Spanish
+    flag_path: "/assets/img/flags/spain_flag.png"
+    speech: Native
+    reading: Native
+    writing: Native
+  - name: Dutch
+    flag_path: "/assets/img/flags/netherlands_flag.png"
+    speech: Fluent
+    reading: Intermediate
+    writing: Beginner
+
+experience_intro: "I have accumulated a wealth of experience in the software development industry, working on a diverse range of projects and contributing to the success of various organizations. Here is a brief overview of my professional journey:"
+experience:
+  - role: QA Engineer (Manual Testing)
+    company: WPG.srl
+    duration: "October 2018 - December 2023"
+    description: Focused on manual testing processes and automation, contributing significantly to improving product quality and reducing time-to-market.
+    picture_path: "/assets/img/experience/wpg_logo.png"
+    more_info_link: "https://www.wpg.com/"
+  - role: Software Developer
+    company: WPG.srl
+    duration: "October 2018 - December 2023"
+    description: Developed and maintained key software components, utilizing my skills in Java, Python, and database management to enhance application functionalities.
+    picture_path: "/assets/img/experience/wpg_logo.png"
+    more_info_link: "https://www.wpg.com/"
+  - role: Quality Specialist II
+    company: MentorMate
+    duration: "August 2024 - Present"
+    description: Currently working as quality assurance on innovative medical software projects, which is aimed at improving women's health through technology.
+    picture_path: "/assets/img/experience/mentormate_logo.png"
+    more_info_link: "https://www.mentormate.com/"
+    
+skills_description: >
+  As a software engineer, I possess a comprehensive range of technical skills that empower me to address complex challenges and deliver high-quality solutions. My experience extends across various facets of software development, from backend processes to user interfaces. Below are some of my key skills, neatly organized by category:
+
+skills_intro: "I have honed my skills in a variety of tools and technologies that are essential for software development and testing. Here are some of the key skills that I bring to the table:"
+skills:
+  - category: "Automation Tools"
+    tools:
+    - icon_path: "/assets/img/logos/tools/selenium_logo.png"
+      technology: "Selenium"
+      description: "Automates web browsers, facilitating robust and repeatable test scenarios."
+    - icon_path: "/assets/img/logos/tools/Postman_logo.webp"
+      technology: "Postman"
+      description: "Employed for API testing to ensure the reliability and scalability of backend services."
+    - icon_path: "/assets/img/logos/tools/charles_logo.png"
+      technology: "Charles Proxy"
+      description: "Used for traffic management and SSL pinning, enhancing security and network reliability."
+
+  - category: "Data Analysis"
+    tools:
+      - icon_path: "/assets/img/logos/tools/pandas_logo.png"
+        technology: "Pandas"
+        description: "Facilitates data manipulation and analysis, enabling complex data workflows in Python environments."
+
+  - category: "Version Control"
+    tools:
+      - icon_path: "/assets/img/logos/tools/git_logo.png"
+        technology: "Git"
+        description: "Essential for tracking changes in source code during software development."
+
+  - category: "Front-end Development"
+    tools:
+      - icon_path: "/assets/img/logos/tools/HTML_logo.png"
+        technology: "HTML"
+        description: "Fundamental for structuring content on the web."
+      - icon_path: "/assets/img/logos/tools/css_logo.png"
+        technology: "CSS"
+        description: "Styles web applications for a visually appealing user interface."
+      - icon_path: "/assets/img/logos/tools/js_logo.png"
+        technology: "JavaScript"
+        description: "Enables interactive web pages and is an essential part of web development."
+      - icon_path: "/assets/img/logos/tools/react_logo.webp"
+        technology: "React"
+        description: "A JavaScript library for building user interfaces, particularly single-page applications."
+
+  - category: "Back-end Development"
+    tools:
+      - icon_path: "/assets/img/logos/tools/java_logo.png"
+        technology: "Java"
+        description: "Utilized for server-side development to handle the logic of web applications."
+      - icon_path: "/assets/img/logos/tools/python_logo.png"
+        technology: "Python"
+        description: "Offers versatility for scripting, automation, and rapid application development."
+      - icon_path: "/assets/img/logos/tools/django_logo.png"
+        technology: "Django"
+        description: "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+
+  - category: "Databases"
+    tools:
+      - icon_path: "/assets/img/logos/tools/mysql_logo.png"
+        technology: "MySQL"
+        description: "A relational database management system used for storing and retrieving data efficiently."
+      - icon_path: "/assets/img/logos/tools/mongo_logo.jpg"
+        technology: "MongoDB"
+        description: "Utilized for database testing and data management, ensuring data integrity and optimal performance."
+
+
+passion_and_interests: |
+  Apart from coding, I am particularly interested in automation, Python, and leveraging tools like Selenium for efficient and scalable testing. I thrive on learning new technologies and staying up-to-date with industry trends, allowing me to deliver cutting-edge solutions.

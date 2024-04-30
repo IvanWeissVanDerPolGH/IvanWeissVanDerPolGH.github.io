@@ -1,54 +1,85 @@
-# change the followings to match your Github username and repo name
-baseurl: "" # the name of your github repo
-url: "https://ivanweissvanderpolgh.github.io/" # the url of your github pages
+# Base configuration
+new_baseurl: "http://127.0.0.1:4000/"  # Base URL configuration
+url: "https://ivanweissvanderpolgh.github.io/"
+certifications_path: "assets/img/Certifications/"
 
-# site information used in page title, meta data etc.
+# Site Information
 title: "Ivan Weiss Van Der Pol - Portfolio"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+description: "A Github Pages (Jekyll) template based on TailwindCSS"
+theme-color: "green" # Options: indigo, yellow, pink, green, stone
 
-# color theme for links
-theme-color: pink # indigo|yellow|pink|green|stone|
+# Quoting strings that include special characters
+author: "Ivan Weiss Van Der Pol"
+author-bio: "Passionate Software Engineer Specializing in QA Automation"
+author-image: "/assets/img/logos/logo_face.png"
 
-# homepage information
-author: Ivan Weiss Van Der Pol
-author-bio: Passionate Software Engineer Specializing in QA Automation  # change to false to hide
-author-image: logos/logo_face.png  # file must be in the /assets/img/ folder
+# Social Media Links - Ensure URLs are in quotes
+instagram: "https://www.instagram.com/ivan_weiss_van_der_pol/"
+github: "https://github.com/IvanWeissVanDerPolGH/"
+linkedin: "https://www.linkedin.com/in/ivanweissvanderpol/"
 
-# navigation menu
+# Collections Configuration
+collections:
+  Pages_content:
+    output: true
+    permalink: /:collection/:name/
+    permalink: /certification-listed/:name/
+
+# Navigation menu
 show-nav-menu: true
-
 nav-menu:
-- text: About
-  permalink: about
-- text: Education
-  permalink: education
-- text: Certifications
-  permalink: certifications
-- text: Work Experience
-  permalink: work_experience
-- text: Projects
-  permalink: projects
+  - text: "About Me"
+    permalink: "about-me"
+  - text: "Education"
+    permalink: "education"
+  - text: "Certifications"
+    permalink: "certifications"
+  - text: "Work Experience"
+    permalink: "work_experience"
+  - text: "Projects"
+    permalink: "projects"
+  - text: "Travels"
+    permalink: "travels"
 
-# use false to turn off any social media links
+# Social media links
 twitter: false
 facebook: false
-instagram: https://www.instagram.com/ivan_weiss_van_der_pol/
-github: https://github.com/IvanWeissVanDerPolGH/
-linkedin: https://www.linkedin.com/in/ivanweissvanderpol/
+instagram: "https://www.instagram.com/ivan_weiss_van_der_pol/"
+github: "https://github.com/IvanWeissVanDerPolGH/"
+linkedin: "https://www.linkedin.com/in/ivanweissvanderpol/"
 medium: false
 google-scholar: false
-phoneNumber: "+595981324569"
-email: weissvanderpol.ivan@gmail.com
-
-
-# footer information
+phone_number: "+595981324569"
+email: "weissvanderpol.ivan@gmail.com"
+# Footer information
 footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+footer-msg-link: "https://github.com/harrywang/tailpages"
 
+# Google Analytics
+google-analytics: "G-WCRC1TC2V5"
 
-# google analytics
-google-analytics: G-WCRC1TC2V5
-
-# jekyll plugins - no need to change
+# Jekyll plugins
 plugins:
-    - jekyll-seo-tag
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  Pages_content:
+    output: true
+    permalink: /:name/
+
+# Files and folders to exclude from the build
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "package-lock.json"
+  - "node_modules"
+  - "README.md"
+  - "LICENSE"
+  - "yarn.lock"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "test/"
+
+palette: "palette-classic-blue"

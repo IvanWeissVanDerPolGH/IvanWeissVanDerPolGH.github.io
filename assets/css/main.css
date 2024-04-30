@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+
+@import 'root.css';
+/* @import 'tailwind.css'; */
+
+@import 'components/about_me/skills_grid.css';
+@import 'components/about_me/passions.css';
+@import 'components/about_me/language_proficiency.css';
+@import 'components/about_me/experience_timeline.css';
+@import 'components/about_me/about_me_info.css';
+
+@import 'components/education/education.css';
+@import 'components/certifications/certifications.css';
+@import 'components/certifications/carousel.css';
+@import 'components/work_experience/work_experience.css';
+@import 'components/projects/projects.css';
+@import 'components/travels/travels.css';
+/* import from css/common */
+
+
+@import 'common/common.css';
+@import 'common/components.css';
+@import 'common/font.css';
+@import 'common/layout.css';
+@import 'common/pages.css';
+@import 'common/palettes.css';
+
+
+/* @import 'common/Components/contact.css'; */
+@import 'common/Components/footer.css';
+@import 'common/Components/hero.css';
+@import 'common/Components/nav.css';
+/* @import 'common/Components/social-media.css'; */
+/* @import 'common/Components/utilities.css'; */
+
+
+
+
+

@@ -1,0 +1,128 @@
+/* Container for the certifications section */
+.certifications-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: var(--background-color, #f9f9f9); /* Fallback in case the variable isn't defined */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--text-color, #333); /* Default text color */
+    overflow: hidden; /* Prevents any child elements from overflowing */
+}
+
+.certifications-container h1 {
+    font-size: 2rem; /* Use rem for responsive font size */
+    margin-bottom: calc(1.25 * var(--base-unit)); /* Use CSS variables for consistent spacing */
+    text-align: center;
+    color: var(--text-color);
+}
+
+.certificate-image {
+    /* set a max size for the images 
+    to prevent them from overflowing 
+    the container    
+    */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: calc(2 * 16px) auto; /* Use CSS variables for consistent spacing */
+}
+
+@media (max-width: 768px) {
+    .certifications-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+/* List that contains certification items */
+.certifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between each certification item */
+}
+
+/* Individual certification items */
+.certification-item {
+    overflow: hidden;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for hover effects on certification items */
+.certification-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header elements within certification items */
+.certification-item h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+/* Paragraphs within certification items */
+.certification-item p {
+    color: #666;
+    font-size: 1em;
+    margin: 5px 0 15px;
+}
+
+/* Images within certification items */
+.certification-item img {
+    max-height: 50vh;
+    object-fit: contain;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button container within the certifications container */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Generic button styling */
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Focus effect for buttons to enhance accessibility */
+.button:focus {
+    outline: 3px solid #0056b3;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .certification-item img {
+        max-height: 30vh; /* Smaller images for smaller screens */
+    }
+}
+
+/* Accessibility improvements for visually impaired users */
+a:focus, button:focus {
+    outline: 3px solid #007bff; /* Highlight focus clearly */
+    outline-offset: 2px;
+}

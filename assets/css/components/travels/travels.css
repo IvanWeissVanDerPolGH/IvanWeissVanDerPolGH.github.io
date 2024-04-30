@@ -1,0 +1,124 @@
+/* Main styling for the travel section */
+.travel-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* A light background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Title styling */
+.travel-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Introductory paragraph styling */
+.travel-intro {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Each travel card styling */
+.travel-card {
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.travel-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Travel card title */
+.travel-card-title {
+    font-size: 1.5rem;
+    color: #0275d8; /* Bootstrap primary color */
+    margin-bottom: 0.5rem;
+}
+
+.travel-card-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.travel-card-title a:hover {
+    color: #025aa5; /* Darker shade for hover state */
+}
+
+/* General styling for text inside the card */
+.travel-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for images inside the card */
+.travel-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Consistent with card border-radius */
+    margin-bottom: 0.5rem;
+}
+
+/* Read more link styling */
+.travel-card-link {
+    display: inline-block;
+    background-color: #0275d8; /* Bootstrap primary color */
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.travel-card-link:hover {
+    background-color: #025aa5; /* Darker shade for hover state */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .travel-container {
+        padding: 10px;
+    }
+
+    .travel-title {
+        font-size: 1.5rem;
+    }
+
+    .travel-card {
+        padding: 0.5rem;
+    }
+
+    .travel-card-title {
+        font-size: 1.25rem;
+    }
+
+    .travel-card p {
+        font-size: 0.8rem;
+    }
+
+    .travel-card-link {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Accessibility improvements */
+.travel-card-link:focus,
+.travel-card-title a:focus {
+    outline: 3px solid #025aa5; /* Matching the hover color for focus outline */
+    outline-offset: 2px;
+}

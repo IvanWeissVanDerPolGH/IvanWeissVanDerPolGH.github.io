@@ -1,0 +1,58 @@
+- tripName: "Netherlands"
+  startDate: "2022-08-01"
+  finishDate: "2022-08-15"
+  reasonForTravel: "Family Visit and Work"
+  destination: "Utrecht, Netherlands"
+  tags:
+    - "family"
+    - "work"
+    - "Netherlands"
+    - "culture"
+  description: "add description"
+  images:
+    - src: "images/travels/utrecht_canal.jpg"
+      description: "Walking along the canal in Utrecht."
+
+- tripName: "CPK Scholarship to USA"
+  startDate: "2023-01-01"
+  finishDate: "2023-07-14"
+  reasonForTravel: "Study Abroad"
+  destination: "Wichita, Kansas"
+  tags:
+    - "study"
+    - "scholarship"
+    - "USA"
+    - "culture"
+  description: "add description"
+  images:
+    - src: "images/travels/alps_summit.jpg"
+      description: "Standing on the summit with a panoramic view of the mountains."
+
+- tripName: "Spring Break in Los Angeles and San Francisco"
+  startDate: "2023-03-11"
+  finishDate: "2023-04-01"
+  reasonForTravel: "Spring Break Vacation"
+  destination: "Los Angeles, San Francisco"
+  tags:
+    - "vacation"
+    - "USA"
+    - "California"
+  description: "add description"
+  images:
+    - src: "images/travels/los_angeles_beach.jpg"
+      description: "Walking on the beach in Los Angeles."
+
+- tripName: "Maceio, Brasil"
+  startDate: "2023-07-15"
+  finishDate: "2023-07-30"
+  reasonForTravel: "Family Vacation"
+  destination: "Maceio, Brasil"
+  tags:
+    - "vacation"
+    - "family"
+    - "Brasil"
+    - "beach"
+  description: "add description"
+  images:
+    - src: "images/travels/maceio_beach.jpg"
+      description: "Walking on the beach in Maceio."

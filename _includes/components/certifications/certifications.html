@@ -1,0 +1,65 @@
+{% assign certification_files = 'fp_una_certifications,linkedin_learning_certifications,mentormate_certifications,personal_achievements,tau_certifications' | split: ',' %}
+<section class="certifications-container">
+    <h1>My Certifications</h1>
+    {% for file in certification_files %}
+        {% assign certifications = site.data.Certifications[file].certifications %}
+        <div class="carousel" id="carousel-{{ forloop.index }}">
+            <h2>{{ file | replace: '_', ' ' | capitalize }}</h2>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    {% for certification in certifications %}
+                        <li class="carousel-slide" id="certification-{{ forloop.index }}">
+                            <h3>{{ certification.title }}</h3>
+                            <img src="{{ site.baseurl }}/{{ certification.url }}" alt="{{ certification.title }} Certificate" class="certificate-image">
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="button-container">
+                <a href="{{ site.new_baseurl }}/certification-listed/{{ file | replace: '_', '-' | downcase }}/" class="button">View All</a>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    initializeAllCarousels();
+});
+
+function initializeAllCarousels() {
+    document.querySelectorAll('.carousel').forEach(carousel => initializeCarousel(carousel.id));
+}
+
+function initializeCarousel(carouselId) {
+    const carousel = document.getElementById(carouselId);
+    const slides = carousel.querySelectorAll('.carousel-slide');
+    let currentIndex = 0;
+
+    function updateActiveSlide() {
+        slides.forEach((slide, index) => {
+            slide.style.display = index === currentIndex ? 'block' : 'none';
+        });
+    }
+
+    function moveToNextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateActiveSlide();
+    }
+
+    setInterval(moveToNextSlide, 4000); // Change slides every 4 seconds
+
+    updateActiveSlide(); // Initialize the first slide as active
+
+    // Optional: Add navigation handlers if you have buttons for manual control
+    const nextButton = carousel.querySelector('.carousel-control.right');
+    const prevButton = carousel.querySelector('.carousel-control.left');
+    if (nextButton && prevButton) {
+        nextButton.addEventListener('click', moveToNextSlide);
+        prevButton.addEventListener('click', () => {
+            currentIndex = currentIndex - 1 < 0 ? slides.length - 1 : currentIndex - 1;
+            updateActiveSlide();
+        });
+    }
+}
+</script>

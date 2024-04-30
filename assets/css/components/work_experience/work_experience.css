@@ -1,0 +1,135 @@
+/* General Styles */
+.container {
+    padding: var(--container-padding);
+    background-color: var(--color-background);
+    font-family: var(--font-family);
+    max-width: var(--max-width);
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid var(--color-border-light); /* subtle border */
+}
+
+/* Title for the work experience page */
+.container__title {
+    color: var(--color-primary);
+    font-size: var(--font-size-large);
+    margin: var(--spacing-large) 0 var(--spacing-medium);
+    text-align: left;
+}
+
+/* Job entry container */
+.job-entry {
+    background-color: var(--color-light);
+    padding: var(--spacing-medium);
+    margin-bottom: var(--spacing-large);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+/* Job title */
+.job-entry__title {
+    color: var(--color-primary);
+    font-size: var(--font-size-medium);
+    border-bottom: 3px solid var(--color-accent);
+    padding-bottom: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+}
+
+/* Section headers */
+.job-entry__header {
+    font-size: var(--font-size-small);
+    color: var(--color-dark);
+    font-weight: bold; /* emphasize headers */
+    margin: var(--spacing-medium) 0 var(--spacing-small);
+}
+
+/* Job date and general paragraphs */
+.job-entry__date, .job-entry__paragraph {
+    font-size: var(--font-size-small);
+    color: var(--color-secondary);
+    margin: var(--spacing-small) 0;
+    line-height: 1.5; /* improved line height for readability */
+}
+
+/* List of achievements and contributions */
+.job-entry__list {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-small) 0;
+}
+
+/* Individual achievements and contributions */
+.job-entry__item {
+    background-color: var(--color-lightest);
+    margin-bottom: var(--spacing-small);
+    padding: var(--spacing-small);
+    border-left: 5px solid var(--color-accent);
+}
+
+/* Titles for achievements and contributions */
+.job-entry__item-title {
+    font-weight: bold;
+    color: var(--color-primary);
+    display: block; /* Ensures separation from description */
+}
+
+/* Learn more link */
+.job-entry__link {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-decoration: none;
+    border-radius: var(--border-radius-small);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.job-entry__link:hover,
+.job-entry__link:focus {
+    background-color: var(--color-accent);
+    color: var(--color-lightest);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: var(--spacing-small);
+    }
+    .job-entry {
+        padding: var(--spacing-small);
+    }
+    .job-entry__title, .job-entry__header {
+        font-size: var(--font-size-smaller);
+    }
+    .job-entry__link {
+        padding: var(--spacing-extra-small);
+    }
+}
+
+/* Accessibility Focus States */
+a:focus, button:focus {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+a:hover, button:hover {
+    text-decoration: underline;
+    background-color: var(--color-light-hover);
+}
+
+/* Additional responsive and aesthetic enhancements */
+@media (max-width: 480px) {
+    .job-entry__title {
+        font-size: var(--font-size-extra-small); /* Even smaller font for very small devices */
+    }
+}
+
+/* Animation for job entries */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.job-entry {
+    animation: fadeIn 0.5s ease-in;
+}

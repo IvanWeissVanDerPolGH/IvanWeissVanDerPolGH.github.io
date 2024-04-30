@@ -1,0 +1,139 @@
+/* Main container for the carousel to allow horizontal scrolling */
+.carousel {
+    overflow-x: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Container to hold the track of slides */
+.carousel-track-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* The track that holds all the slides */
+.carousel-track {
+    display: flex;
+    padding: 0;
+}
+
+/* Individual slide styling */
+.carousel-slide {
+    display: none; /* Hide all slides initially */
+    flex-shrink: 0;
+    width: 100%; /* Full width of each slide */
+    transition: transform 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Active class to show the current slide */
+.carousel-slide.active {
+    display: flex; /* Only active slide is displayed */
+}
+
+/* Button controls for navigation */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.carousel-control.left {
+    left: 10px;
+}
+
+.carousel-control.right {
+    right: 10px;
+}
+
+/* Carousel specific styles */
+.carousel h2, .carousel h3 {
+    color: var(--primary-color, #007bff); /* Use primary color for headers */
+    font-weight: bold;
+}
+
+.carousel h2 {
+    font-size: 1.8em; /* Larger size for section titles */
+    margin-bottom: 10px; /* Spacing below the title */
+}
+
+.carousel h3 {
+    align-self: flex-start;
+    font-size: 1.5em; /* Slightly smaller for subheadings within carousel */
+}
+
+.carousel p {
+    font-size: 1em;
+    color: var(--text-color-secondary, #666); /* Secondary text color for less emphasis */
+    line-height: 1.6; /* Adequate line height for readability */
+    margin-bottom: 15px; /* Spacing below paragraphs */
+}
+
+.carousel-indicators button {
+    background-color: #ccc;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Styling for images to make them responsive and as large as possible */
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    object-position: center;
+}
+
+/* Indicator styles for carousel navigation */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-indicators button {
+    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background-color: #333;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .carousel-control {
+        padding: 5px 10px; /* Smaller padding on smaller screens */
+    }
+}
+
+/* Accessibility enhancements */
+.carousel [role="button"] {
+    cursor: pointer;
+}
+
+@media (pointer: coarse) {
+    .carousel-control {
+        padding: 15px 20px; /* Larger touch targets */
+        font-size: larger; /* Larger icons for easier interaction */
+    }
+}

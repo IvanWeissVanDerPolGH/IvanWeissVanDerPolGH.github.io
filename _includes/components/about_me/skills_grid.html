@@ -1,0 +1,33 @@
+<section class="skills-grid-container"> 
+  <div class="container">
+    <h2>Skills Grid</h2>
+    <p>{{ site.data.Pages.about_me.skills_intro }}</p>
+  </div>
+  {% for skill in site.data.Pages.about_me.skills %}
+  <div class="container">
+  <table class="skills-grid">
+      <thead>
+        <tr>
+          <th colspan="3" class="text-center">{{ skill.category }}</th>
+        </tr>
+        <tr>
+          <th scope="col">Icon</th>
+          <th scope="col">Technology</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tool in skill.tools %}
+          <tr>
+            <td>
+              <img src="{{ tool.icon_path }}" alt="{{ tool.technology }}" title="{{ tool.technology }}">
+            </td>
+            <td><h3>{{ tool.technology }}</h3></td>
+            <td><p>{{ tool.description }}</p></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+</section>

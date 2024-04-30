@@ -59,8 +59,8 @@
 
     {% capture deprecation_warnings %}{% endcapture %}
 
-    {% if include.baseurl %}
-        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
+    {% if include.new_baseurl %}
+        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "new_baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
     {% endif %}
 
     {% if include.skipNoIDs %}
@@ -69,7 +69,7 @@
 
     {% capture jekyll_toc %}{% endcapture %}
     {% assign orderedList = include.ordered | default: false %}
-    {% assign baseURL = include.base_url | default: include.baseurl | default: '' %}
+    {% assign new_baseurl = include.base_url | default: include.new_baseurl | default: '' %}
     {% assign skipNoIDs = include.skip_no_ids | default: include.skipNoIDs | default: false %}
     {% assign minHeader = include.h_min | default: 1 %}
     {% assign maxHeader = include.h_max | default: 6 %}
@@ -125,7 +125,7 @@
         {% capture anchorBody %}{% if include.sanitize %}{{ header | strip_html }}{% else %}{{ header }}{% endif %}{% endcapture %}
 
         {% if htmlID %}
-            {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
+            {% capture anchorAttributes %} href="{% if new_baseurl %}{{ new_baseurl }}{% endif %}#{{ htmlID }}"{% endcapture %}
 
             {% if include.anchor_class %}
                 {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}

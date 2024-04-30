@@ -1,0 +1,15 @@
+<section class="certifications-container">
+    <!--<h1>{{ page.title }}</h1> clean the string --> 
+    <h1>{{ page.title | replace: '_', ' ' | capitalize }}</h1>
+    <ul class="certifications-list">
+        {% for certification in site.data.Certifications[page.data_file].certifications %}
+        <li class="certification-item">
+            <h3>{{ certification.title }}</h3>
+            <img src="{{ site.new_baseurl }}/{{ certification.url }}" alt="{{ certification.title }} Certificate" class="certificate-image">
+            <div class="button-container">
+                <a href="{{ site.new_baseurl }}/{{ certification.url }}" class="button" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

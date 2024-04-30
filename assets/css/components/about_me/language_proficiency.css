@@ -1,0 +1,38 @@
+/* language_proficiency.css */
+
+.language-proficiency {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: var(--background-color);
+}
+
+.language-proficiency tr:nth-child(even) {
+  background-color: var(--table-row-even-bg-color);
+}
+
+.language-proficiency tr:hover {
+  background-color: var(--table-hover-bg-color);
+}
+
+.flag-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .language-proficiency {
+    width: 100%;
+    text-align: center;
+  }
+  .language-proficiency th[colspan="3"] {
+    display: none;
+  }
+}

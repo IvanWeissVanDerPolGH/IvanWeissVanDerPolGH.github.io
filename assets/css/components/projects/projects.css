@@ -1,0 +1,104 @@
+/* Container for all blog posts */
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Each blog post entry */
+.post-entry {
+  max-width: 80%;
+  background: #fff;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  border-bottom: 1px solid #ccc; /* subtle line between posts */
+  background-color: #fff;
+}
+
+
+.post-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Title of each post */
+.post-title {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.post-title a {
+  color: #007BFF; /* a distinct, attractive color for links */
+  text-decoration: none; /* no underline */
+}
+
+.post-title a:hover,
+.post-title a:focus {
+  text-decoration: underline; /* underline on hover/focus for better user interaction feedback */
+  color: #0056b3; /* darker shade for interaction */
+}
+
+/* Posts List */
+.posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Post date styling */
+.post-date {
+  font-size: 0.9em; /* smaller text for date */
+  display: block;
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+
+}
+
+@media (max-width: 768px) {
+  .blog-posts {
+      margin: 10px;
+      padding: 5px;
+  }
+
+  .post-entry {
+      padding: 5px;
+      margin-bottom: 10px;
+  }
+
+  .post-title {
+    font-size: 1.3em;
+  }
+}
+/* Accessibility Enhancements */
+:focus {
+  outline: 3px solid #ffbf47;
+}
+
+
+
+.post-excerpt {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}

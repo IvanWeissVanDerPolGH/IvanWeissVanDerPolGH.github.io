@@ -1,0 +1,37 @@
+<section class="language-proficiency-container">
+    <div class="container">
+        <h2>Language Proficiency</h2>
+
+    <!-- Conditional rendering of introduction paragraph if it exists -->
+    {% if site.data.Pages.about_me.languagesIntroduction %}
+        <p>{{ site.data.Pages.about_me.languagesIntroduction }}</p>
+    {% endif %}
+
+    <table class="language-proficiency">
+        <thead>
+            <tr>
+
+                <th scope="col">Language</th>
+                <th scope="col">Speech</th>
+                <th scope="col">Reading</th>
+                <th scope="col">Writing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through the languages data -->
+            {% for language in site.data.Pages.about_me.languages %}
+            <tr>
+
+                <td class="flag-container">
+                    <img src="{{ language.flag_path }}" alt="{{ language.name }}" title="{{ language.name }}">
+                    <span class="language"> {{ language.name }}</span>
+                </td>
+                <td>{{ language.speech }}</td>
+                <td>{{ language.reading }}</td>
+                <td>{{ language.writing }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</section>

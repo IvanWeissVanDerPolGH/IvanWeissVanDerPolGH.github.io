@@ -1,0 +1,147 @@
+/* palettes.css */
+/* Central definition of color palettes to enable easy theming and reusability */
+
+:root {
+  /* Base Color Scheme */
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --tertiary-color: #6c757d;
+  --accent-color: #17a2b8;
+  --text-hero-color: #ffffff;
+  --text-color: #212529;
+  --text-color-light: #f8f9fa;
+  --text-color-dark: #343a40;
+  --background-color: #ffffff;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --success-color: #28a745;
+
+  /* Extended Color Variables */
+  --focus-color: var(--primary-color); /* Focus state color for interactive elements */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--secondary-color);
+  --gradient-start: var(--primary-color);
+  --gradient-end: var(--accent-color);
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.3);
+  --shadow-heavy: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-button-color: var(--text-hero-color);
+  --text-link-color: var(--link-color);
+  --text-link-hover-color: var(--link-hover-color);
+
+  /* Border Styles */
+  --border-color: var(--secondary-color);
+  --border-focus-color: var(--focus-color);
+  
+  /* Background Colors for Interactive Elements */
+  --background-button-color: var(--primary-color);
+  --background-button-hover-color: var(--focus-color);
+  --background-hover-color: var(--background-color);
+
+  /* Table Styles */
+  --table-border-color: var(--border-color);
+  --table-header-bg-color: var(--primary-color);
+  --table-header-text-color: var(--text-hero-color);
+  --table-hover-bg-color: var(--background-hover-color);
+
+  /* Neutral and Information Text Colors */
+  --text-color-primary: var(--text-color);
+  --text-color-secondary: var(--secondary-color);
+  --text-color-tertiary: var(--tertiary-color);
+  --text-color-info: var(--accent-color);
+  --text-color-success: var(--success-color);
+  --text-color-warning: var(--warning-color);
+  --text-color-danger: var(--error-color);
+
+  --color-primary: #0056b3;
+  --color-secondary: #6c757d;
+  --color-light: #f8f9fa;
+  --color-dark: #212529;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --font-lg: 2rem;
+  --font-md: 1rem;
+  --font-sm: 0.875rem;
+  --border-radius: 0.25rem;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --max-width: 960px;
+  --container-padding: 1rem;
+}
+
+/* Palette Definitions */
+
+/* Classic Blue Palette */
+.palette-classic-blue {
+  --primary-color: #0D47A1;
+  --secondary-color: #1565C0;
+  --accent-color: #82B1FF;
+  --text-color: #FFFFFF;
+  --background-color: #E3F2FD;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}
+
+/* Modern Slate Palette */
+.palette-modern-slate {
+  --primary-color: #37474F;
+  --secondary-color: #607D8B;
+  --accent-color: #CFD8DC;
+  --text-color: #FFFFFF;
+  --background-color: #ECEFF1;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}
+
+/* Sunset Orange Palette */
+.palette-sunset-orange {
+  --primary-color: #EF6C00;
+  --secondary-color: #FF9800;
+  --accent-color: #FFCCBC;
+  --text-color: #FFFFFF;
+  --background-color: #FFF3E0;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}
+
+/* Earthy Green Palette */
+.palette-earthy-green {
+  --primary-color: #2E7D32;
+  --secondary-color: #4CAF50;
+  --accent-color: #A5D6A7;
+  --text-color: #FFFFFF;
+  --background-color: #E8F5E9;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}
+
+/* Vibrant Purple Palette */
+.palette-vibrant-purple {
+  --primary-color: #6A1B9A;
+  --secondary-color: #9C27B0;
+  --accent-color: #EA80FC;
+  --text-color: #FFFFFF;
+  --background-color: #F3E5F5;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}
+
+/* Royal Gold Palette */
+.palette-royal-gold {
+  --primary-color: #FFD600;
+  --secondary-color: #FFC107;
+  --accent-color: #FFE082;
+  --text-color: #263238;
+  --background-color: #FFF8E1;
+  --error-color: #B71C1C;
+  --warning-color: #FF6F00;
+  --success-color: #1B5E20;
+}

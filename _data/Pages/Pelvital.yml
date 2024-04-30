@@ -1,0 +1,53 @@
+page_info:
+  title: "Quality Specialist II at MentorMate"
+  duration: "February 2024 – Present"
+
+sections:
+  - id: overview
+    title: "Overview of the Flyte Project"
+    details:
+      - key: "Purpose"
+        value: "Flyte is designed to support women with pelvic floor health issues through a dual-component system consisting of a mobile app and the Flyte wand, an FDA-cleared device for treating stress urinary incontinence and strengthening pelvic floor muscles. The Provider Portal complements this by enhancing healthcare providers' ability to monitor and support their patients' progress."
+      - key: "Business Value"
+        value: "The integration of the mobile app with the Provider Portal provides a comprehensive solution for managing pelvic floor health. This non-invasive, home-based therapeutic option, coupled with professional oversight, enhances the quality of life for users and promotes a proactive approach to healthcare."
+
+  - id: key_features
+    title: "Key Features and Technical Details"
+    categories:
+      - name: "Mobile Application"
+        features:
+          - description: "Guided sessions using the Flyte wand, with exercises designed to strengthen pelvic muscles."
+          - description: "Enables users to track therapeutic progress through a 6-week program with both weekly and comprehensive program views."
+          - description: "Surveys assess changes in continence and quality of life, aiding users in tracking their improvement."
+          - description: "Users can set and visualize personal health goals with progress slider interfaces."
+          - description: "Provides onboarding resources and information about pelvic health and device usage."
+          - description: "Direct access to Flyte Customer Care and additional educational resources."
+      - name: "Provider Portal"
+        features:
+          - description: "Healthcare providers can access real-time data on patient therapy progress, survey results, and session notes."
+          - description: "Facilitates detailed record-keeping by allowing providers to add, view, and manage notes on each patient’s progress."
+          - description: "Clinicians manage patient profiles, view detailed treatment plans, and monitor individual and overall progress."
+          - description: "Integrated communication tools enhance interactions between healthcare providers and patients regarding treatment updates."
+
+  - id: technical_specs
+    title: "Technical Specifications"
+    specs:
+      - key: "Integration"
+        value: "Seamless integration between the mobile app and the Provider Portal ensures real-time data syncing."
+      - key: "Security Features"
+        value: "Implements SSL pinning and secure access protocols to safeguard data transmission."
+      - key: "User Interface"
+        value: "Focus on usability, accessibility, and engagement, with responsive design for various devices and screen sizes."
+
+  - id: development
+    title: "Development and Maintenance"
+    points:
+      - "Regular updates are made to the app and portal based on user feedback and technological advancements."
+      - "Feedback from both patients and healthcare providers is actively incorporated to enhance features and address user needs effectively."
+
+  - id: technologies
+    title: "Technologies Used and Learned"
+    technologies:
+      - description: "Programming and Scripting: Python for backend automation, JavaScript for frontend interactions, and SQL for database management."
+      - description: "Tools: Extensive use of Postman for API testing, Charles Proxy for traffic management and SSL pinning, MongoDB for database testing and data management."
+      - description: "Frameworks and Libraries: Employed React for dynamic front-end development, Django as the backend framework to manage server-side logic, and Pandas for data analysis and manipulation."

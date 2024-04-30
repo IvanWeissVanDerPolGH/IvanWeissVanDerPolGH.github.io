@@ -1,0 +1,30 @@
+<!-- Section for Experience Timeline -->
+<section class="experience-timeline">
+    <div class="container">
+        <h2>Experience Timeline</h2>
+        <p>{{ site.data.Pages.about_me.experience_intro }}</p>
+    </div>    
+    {% for exp in site.data.Pages.about_me.experience %}
+    <div class="container">
+    <article class="timeline-item">
+        <header class="timeline-item-header">
+            <h3>{{ exp.role }}</h3>
+            <h4>{{ exp.company }}</h4>
+
+        </header>
+        <div class="timeline-item-body">
+            <p class="duration">
+                <time datetime="YYYY-MM-DD">{{ exp.duration }}</time>
+            </p>
+            <a href="{{ exp.more_info_link }}" class="button" target="_blank">More Info</a>
+            <p>{{ exp.description }}</p>
+            
+            <!-- Add picture here -->
+            <img src="{{ exp.picture_path }}" alt="{{ exp.role }} at {{ exp.company }}" />
+
+            <!-- More Info button -->
+        </div>
+    </article>
+</div>
+{% endfor %}
+</section>

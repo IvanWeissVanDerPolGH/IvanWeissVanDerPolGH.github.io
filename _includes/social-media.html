@@ -1,79 +1,46 @@
-<section>
-  <div class="flex flex-wrap text-center">
-    <div class="w-full pt-4">
-      <div>
-        {% if site.twitter %}
-        <a href="{{site.twitter}}" target="_blank">
-          <button
-            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-twitter"></i>
-          </button>
-        </a>
-        {% endif %}
+<!-- Social Media Links Section -->
+<section class="social-media" aria-label="Social Media Links">
+  <div class="social-media-links">
+    {% if site.twitter %}
+    <a href="{{ site.twitter }}" class="social-link twitter" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    {% endif %}
 
-        {% if site.facebook %}
-        <a href="{{site.facebook}}" target="_blank">
-          <button
-            class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-facebook"></i>
-          </button>
-        </a>
-        {% endif %}
+    {% if site.facebook %}
+    <a href="{{ site.facebook }}" class="social-link facebook" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    {% endif %}
 
-        {% if site.instagram %}
-        <a href="{{site.instagram}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-instagram"></i>
-          </button>
-        </a>
-        {% endif %}
+    {% if site.instagram %}
+    <a href="{{ site.instagram }}" class="social-link instagram" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    {% endif %}
 
-        {% if site.github %}
-        <a href="{{site.github}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-github"></i>
-          </button>
-        </a>
-        {% endif %}
+    {% if site.github %}
+    <a href="{{ site.github }}" class="social-link github" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    {% endif %}
 
-        {% if site.linkedin %}
-        <a href="{{site.linkedin}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-linkedin"></i>
-          </button>
-        </a>
-        {% endif %}
+    {% if site.linkedin %}
+    <a href="{{ site.linkedin }}" class="social-link linkedin" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    {% endif %}
 
-        {% if site.medium %}
-        <a href="{{site.medium}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-medium"></i>
-          </button>
-        </a>
-        {% endif %}
+    {% if site.medium %}
+    <a href="{{ site.medium }}" class="social-link medium" target="_blank" aria-label="Medium">
+      <i class="fab fa-medium-m"></i>
+    </a>
+    {% endif %}
 
-        {% if site.google-scholar %}
-        <a href="{{site.google-scholar}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fas fa-graduation-cap"></i>
-          </button>
-        </a>
-        {% endif %}
-
-
-      </div>
-    </div>
+    {% if site.google-scholar %}
+    <a href="{{ site.google-scholar }}" class="social-link google-scholar" target="_blank" aria-label="Google Scholar">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+    {% endif %}
   </div>
 </section>

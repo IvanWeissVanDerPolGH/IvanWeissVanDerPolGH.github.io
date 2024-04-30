@@ -1,0 +1,162 @@
+/* nav.css */
+/* Enhanced styles for the navigation bar with a focus on responsiveness, accessibility, and customization */
+
+/* @import url('../palettes.css');
+@import url('../font.css'); */
+
+
+
+.sticky-nav {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    padding-left : var(--nav-padding-left);
+    padding-right: var(--nav-padding-right);
+    box-shadow: 0 4px 6px var(--shadow-light);
+    transition: background-color 0.3s, padding 0.3s;
+    /* z-index: 1000; */
+    position: fixed; /* Fixed position to make it stay on top */
+    width: 100%;
+    top: 0;
+    left: 0; /* Ensures it extends full width */
+    display: block;
+
+
+
+    
+
+}
+    
+
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.nav-brand {
+    margin-left: var(--nav-item-spacing);
+}
+
+.nav-logo {
+    min-width: 1rem;
+    max-width: 4rem;
+    max-height: 4rem;
+    height: var(--nav-logo-height);
+    width: auto;
+    margin: 1rem;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: contain; /* This will ensure the logo scales nicely */
+}
+
+.nav-logo:hover {
+    transform: scale(1.15);
+}
+
+.nav-brand-name {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--nav-text-color);
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: var(--nav-item-spacing);
+}
+
+.nav-link {
+    color: var(--nav-text-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link.active {
+    background-color: var(--nav-hover-bg-color);
+    border-radius: 4px;
+}
+
+.nav-button {
+    background-color: var(--nav-button-bg-color);
+    color: var(--nav-text-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    align-items: center;
+}
+
+.nav-button:hover, .nav-button:focus {
+    background-color: var(--nav-button-hover-bg-color);
+}
+
+.nav-menu-icon {
+    display: none;
+    cursor: pointer;
+    /* font-size: 2rem; */
+    color: var(--nav-text-color);
+    margin: 2px;
+    margin-right: 1.5rem;
+    padding-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none; /* Start with the menu hidden */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--nav-bg-color);
+        z-index: 1500; /* Higher than other elements */
+    }
+
+    .nav-menu-icon {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .nav-item {
+        width: 100%;
+        border-top: 1px solid var(--nav-hover-bg-color);
+    }
+
+
+    .nav-logo {
+        margin: 0;
+    }
+
+    .nav-link, .nav-button {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+}

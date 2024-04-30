@@ -1,52 +1,53 @@
 ---
 layout: post
-title: add posting automation
-tags: automation python pandas selenium marketing adds
-
+title: "Automated Ad Posting for Efficiency"
+tags: [automation, python, pandas, selenium, marketing, ads]
 ---
-automatic Add poster
 
-##### problem
+## Automated Ad Posting
 
-in my 3d printing business i had to post multiple adds for all my products online
-doing this manually would take a lot of time, and i could  do manual mistakes
+In the realm of my 3D printing business, managing online ads across multiple marketplaces became a time-consuming and error-prone task. That's where the concept of automated ad posting came into play—streamlining the process and eliminating manual errors.
 
-##### solution
+### The Challenge
 
-find a way to atumatically post the adds with a program
+Manually posting ads for each product on different platforms like Clasipar, Hendyla, and Instagram, not to mention attempting to break into Facebook's marketplace, was a daunting daily routine that required a significant amount of time and attention to detail.
 
-##### idea
+### The Solution
 
-i can store all my data in a file (in this case i chose excel to take advantage of the grid properties and structure )
-with python i can read the file , store the info in a add_object and make an list of add_objects
-now with the list of objects i can load the information to the web with selenium
+The development of an automated system using Python and Selenium became the optimal solution. This system is designed to:
 
-#### DEMO
-i made a demo (in spanish) of me running the program (note 0 profesional video but gets the job done )
+- Read product data from an organized Excel file.
+- Transform the data into structured ad objects.
+- Automate the posting process on various marketplace platforms using Selenium.
 
+### How It Works
 
-[<img  width="50%" height="50%" src="./../assets/posts/autoposter/thumbnail.png">](https://www.youtube.com/watch?v=B-sr9z6YC5E&t=111s)
-##### requierments 
+Here's a step-by-step guide on how the automated posting system operates:
 
-* download the latest chrome browser => https://chromedriver.chromium.org/downloads
-* download the project from my github => [github_link](https://github.com/IvanWeissVanDerPolGH/automated-posting)
-* download the requierments for the project
+1. **Credentials Setup**: First, set up your credentials for the marketplace platforms within the Excel file.
+   
 
+2. **Product Entry**: Next, add your product details in the products tab of the Excel file.
+   
 
-### step 1 setup your own credentials for tha pages in the excel
+3. **Execution**: Run the `auto_poster.py` script to initiate the automated posting process.
+   
 
-![image](./../assets/posts/autoposter/excel_users.png)
-
-### step 2 add your products in the products tab 
-![image](./../assets/posts/autoposter/excel_products.png)
-### step 3 run auto poster.py 
-![image](./../assets/posts/autoposter/auto_poster_finished_reading_excel.png)
+4. **Observe**: Watch as the script autonomously navigates each platform and posts your ads.
 
 
-### step 4? it runs  and you can watch as it is posting the adds
+As a result, I was able to post multiple pages of ads for my business, saving time and improving accuracy.
 
-![image](./../assets/posts/autoposter/test_hendyla.png)
+### Demo and Resources
 
-### in total i posted 3 pages of adds for my actual business 
+I've created a demonstration video (in Spanish) showcasing the automated ad posting in action. Note that it's not a professional-grade video, but it effectively illustrates the program's capabilities.
 
-![image](./../assets/posts/autoposter/resultado_en_hendyla.png)
+[Automated Posting Demo](https://www.youtube.com/watch?v=B-sr9z6YC5E&t=111s)
+
+To set up and use the automated posting system for your own business, here are the steps to get started:
+
+- **Chrome Driver**: Ensure you have the latest Chrome browser installed from [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads).
+- **Project Files**: Download the project from my GitHub: [Automated Posting on GitHub](https://github.com/IvanWeissVanDerPolGH/automated-posting).
+- **Dependencies**: Install the required dependencies for the project as listed in the `requirements.txt` file.
+
+The system has proven to be an invaluable asset to my business, streamlining the ad posting process across multiple platforms and allowing me to focus on other critical aspects of my business.

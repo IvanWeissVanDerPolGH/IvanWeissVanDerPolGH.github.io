@@ -1,0 +1,22 @@
+profile:
+  name: Ivan Weiss
+  description: "a 24-year-old software developer passionate about crafting innovative solutions. With a strong academic background in Software Engineering, I bring a diverse set of skills and expertise to the table."
+education:
+  - degree: Bachelor's Degree in Computer Science
+    location: Asunción, Paraguay
+    institution: FP-UNA
+    institution_url: https://www.pol.una.py/
+    institution_logo: assets/img/logos/unis/fpuna_logo_institucional.svg
+    description: "I am pursuing my passion for technology by earning a Bachelor's degree in Computer Science. During my studies, I gained a solid foundation in computer programming, algorithms, data structures, and software development. The program equipped me with the necessary skills to analyze complex problems, design efficient solutions, and develop robust software applications. I had the opportunity to work on various projects, collaborate with classmates, and learn from experienced professors."
+  - degree: Study Abroad Program
+    location: Wichita, Kansas
+    institution: Wichita State University
+    institution_url: https://www.wichita.edu/
+    institution_logo: assets/img/logos/unis/WSU_vertical_logo_transparent.png
+    description: "From January to May, I had the opportunity to study in the USA with a scholarship offered by BECAL. During my stay at Wichita State University, I perfected my English, participated in many events, and advanced to the second phase of a business competition with my idea for an automated reforestation rover."
+projects:
+  - title: Botanic Buddy
+    description: "The project, titled 'Botanic Buddy,' aimed to revolutionize reforestation efforts through the use of advanced technology. The core idea was to develop a reforestation rover that could automate the planting process. By pelletizing seeds with essential nutrients and pesticides, we enabled these rovers and drones to disperse them across large deforested areas efficiently."
+    impact: "This innovative approach leverages automation to enhance the scale and speed of reforestation efforts, significantly contributing to the fight against climate change. The system's design allows for automated flights and ground operations to plant forests where they are most needed, fostering a more sustainable and greener future."
+    project_logo: assets/img/logos/botanicBuddyLogo.png
+    youtube_link: https://youtu.be/J051XxNL2iM

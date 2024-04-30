@@ -1,0 +1,60 @@
+/* font.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+/* Base font settings */
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--text-color-primary);
+}
+
+/* Typography scale */
+h1, .text-h1 { font-size: var(--font-size-lg); line-height: var(--line-height-tight); font-weight: var(--font-weight-bold); }
+h2, .text-h2 { font-size: var(--font-size-md); line-height: var(--line-height-normal); font-weight: var(--font-weight-bold); }
+h3, .text-h3 { font-size: var(--font-size-sm); line-height: var(--line-height-relaxed); font-weight: var(--font-weight-bold); }
+h4, .text-h4 { font-size: var(--font-size-xs); line-height: var(--line-height-base); font-weight: var(--font-weight-bold); }
+h5, .text-h5 { font-size: var(--font-size-xxs); line-height: var(--line-height-loose); font-weight: var(--font-weight-bold); }
+h6, .text-h6 { font-size: var(--font-size-xxxs); line-height: var(--line-height-loose); font-weight: var(--font-weight-bold); }
+
+/* Text alignment utilities */
+.text-left   { text-align: left; }
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Font weight utilities */
+.font-normal    { font-weight: var(--font-weight-normal); }
+.font-bold      { font-weight: var(--font-weight-bold); }
+.font-semibold  { font-weight: var(--font-weight-semibold); }
+.font-light     { font-weight: var(--font-weight-light); }
+
+/* Font style utilities */
+.font-italic { font-style: italic; }
+
+/* Text transformation utilities */
+.uppercase   { text-transform: uppercase; }
+.lowercase   { text-transform: lowercase; }
+.capitalize  { text-transform: capitalize; }
+
+/* Letter spacing */
+.letter-tight    { letter-spacing: -0.05em; }
+.letter-normal   { letter-spacing: normal; }
+.letter-wide     { letter-spacing: 0.05em; }
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1, .text-h1 { font-size: 2rem; }
+}
+
+@media (max-width: 480px) {
+  body { font-size: 14px; }
+  h1, .text-h1 { font-size: 1.75rem; }
+  h2, .text-h2 { font-size: 1.25rem; }
+}
+
+
+.center-text {
+    text-align: center;
+}

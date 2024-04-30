@@ -1,0 +1,27 @@
+
+/* Styling for passions and interests section */
+.passions {
+    background-color: var(--background-color);
+    max-width: 800px;
+    font-family: var(--font-sans);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-base);
+    transition: background-color 0.3s ease;
+}
+
+.passions h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-bold);
+}
+
+.passions p {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-relaxed);
+    color: var(--text-color-primary);
+    text-align: justify;
+    margin-bottom: 1em;
+}

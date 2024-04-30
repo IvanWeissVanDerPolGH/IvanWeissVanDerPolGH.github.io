@@ -1,0 +1,24 @@
+<!-- about_me.html -->
+<section id="about-me" class="about-me-section">
+    <div class="container">
+      
+      {% for section in site.data.Pages.about_me.sections %}
+        <div class="about-me-content">
+          <h1>{{ section.title }}</h1>
+          <h2>{{ section.subtitle }}</h2>
+          <p>{{ section.text }}</p>
+          
+          <!-- Display the resume download button only if the link is present -->
+          {% if section.resume_download_link %}
+            <a href="{{ section.resume_download_link }}" class="button" download>
+              Download My Resume
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+  
+    </div>
+  </section>
+  
+  <!-- Add corresponding CSS for styling -->
+  

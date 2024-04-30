@@ -1,0 +1,13 @@
+<section class="blog-posts">
+    {% for post in site.posts %}
+      <article class="post-entry">
+        <h3 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p class="post-date text-gray-400">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </section>
+  
