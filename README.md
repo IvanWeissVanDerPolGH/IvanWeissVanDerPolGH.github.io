@@ -71,3 +71,25 @@ TailwindCSS is used for styling. To modify the styles:
 Edit the tailwind.config.js to customize Tailwind's default behavior.
 Use Tailwind's utility classes within your HTML or Markdown files to apply styles directly.
 
+## Creating Your Business Card with Canva
+
+Creating a business card in Canva is an excellent way to get professional-looking cards that you can customize to match your personal or professional branding. Below is a step-by-step guide to help you design your own business cards using Canva.
+
+### Step 1: Access Your Canva Project
+First, access your specific Canva project by clicking on the following link:
+[Your Business Card on Canva](https://www.canva.com/design/DAGD7MCWSyY/yFdla7TAocjxIN3-pxiNjA/edit?utm_content=DAGD7MCWSyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+If prompted, log in to your Canva account, or sign up if you don't already have one.
+
+### Step 2: Choose a Template
+Canva offers a wide array of business card templates. Browse through the available options and select one that aligns with your style and the image you want to project.
+
+### Step 3: Customize Your Card
+- **Edit Text**: Click on the text boxes to edit the content. You can customize the font, size, color, and placement to fit your needs.
+- **Add Images**: You can add images by dragging and dropping them into your design from the Canva library or by uploading your own.
+- **Modify Design Elements**: Adjust other elements like shapes, lines, and backgrounds by selecting them and using the edit tools.
+
+### Step 4: Adjust Layout and Style
+Ensure that the layout is not only visually appealing but also practical. All key information should be easy to read and well-organized. Consider the principles of design such as balance, alignment, and contrast to enhance your business card's appearance.
+
+### Step 5: Preview and Make Adjustments
+It’s important to preview your business card to see how it
