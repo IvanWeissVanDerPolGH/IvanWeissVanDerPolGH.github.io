@@ -5,20 +5,29 @@ layout: default
   {% include nav.html %}
 {% endif %}
 
-<section class="hero">
-  <div class="mx-auto text-center">
-    <div>
-      <img class="object-cover mx-auto h-70 w-70 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
-        alt="author profile image">
-      <h1>{{site.author}}</h1>
+<main>
+  <section class="hero">
+    <div class="container mx-auto text-center">
+      <figure>
+        <img class="object-cover mx-auto h-70 w-70 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
+          alt="author profile image">
+        <figcaption>
+          <h1 class="hero-title">{{site.author}}</h1>
+        </figcaption>
+      </figure>
+      {% if site.author-bio %}
+      <div class="author-bio text-gray-500 pb-4">
+        <p>{{site.author-bio}}</p>
+      </div>
+      {% endif %}
     </div>
-    {% if site.author-bio %}
-    <p class="text-gray-500 pb-4">{{site.author-bio}}</p>
-    {% endif %}
+  </section>
 
-  </div>
-</section>
+  <section class="social-media">
+    {% include social-media.html %}
+  </section>
 
-
-{% include social-media.html %}
-{% include footer.html %}
+  <footer class="site-footer">
+    {% include footer.html %}
+  </footer>
+</main>
