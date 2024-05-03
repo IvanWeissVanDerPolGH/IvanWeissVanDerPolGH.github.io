@@ -9,12 +9,12 @@ Hello, I'm Ivan Weiss, a 24-year-old software developer passionate about craftin
 if you are interested feel free to  [Download my Resume](./assets/img/Resumes/Resumen%20Ivan%20Weiss%20Van%20Der%20Pol%2003072023.pdf){:target="_blank"}
 ### Languges
 
-aI am fluent in English, Spanish (Castilian) and i'm polishing my Dutch (Flemish). Being multilingual enables me to effectively communicate and collaborate with diverse teams and stakeholders, facilitating seamless project execution.
+I am fluent in English, Spanish, and Dutch, enabling me to communicate effectively with diverse audiences. My language skills have proven invaluable in my professional endeavors, allowing me to collaborate with international teams and engage with clients worldwide.
 | Languages | Speech         | Reading        | Writing        | Flag                                                                                   |
 |-----------|----------------|----------------|----------------|----------------------------------------------------------------------------------------|
-| English   | Native         | Native         | Native         | <img src="./assets/img/flags/usa_flag.png" alt="USA Flag" style="width:30px; height:30px; border-radius:50%;">       |
-| Spanish   | Native         | Native         | Native         | <img src="./assets/img/flags/spain_flag.png" alt="Spain Flag" style="width:30px; height:30px; border-radius:50%;">   |
-| Dutch     | Native         | Intermediate   | Beginner       | <img src="./assets/img/flags/netherlands_flag.png" alt="Netherlands Flag" style="width:30px; height:30px; border-radius:50%;"> |
+<img src="./assets/img/flags/usa_flag.png" alt="USA Flag" style="width:30px; height:30px; border-radius:50%;">       | English   | Native         | Native         | Native         | |
+<img src="./assets/img/flags/spain_flag.png" alt="Spain Flag" style="width:30px; height:30px; border-radius:50%;">   | Spanish   | Native         | Native         | Native         | |
+<img src="./assets/img/flags/netherlands_flag.png" alt="Netherlands Flag" style="width:30px; height:30px; border-radius:50%;"> | Dutch     | Native         | Intermediate   | Beginner       | |
 
 
 ## Experience
