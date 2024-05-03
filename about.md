@@ -4,19 +4,17 @@ title: About Me
 permalink: about
 ---
 
-Hello, I'm Ivan Weiss, a 23-year-old software developer passionate about crafting innovative solutions. With a strong academic background in Software Engineering, I bring a diverse set of skills and expertise to the table
+Hello, I'm Ivan Weiss, a 24-year-old software developer passionate about crafting innovative solutions. With a strong academic background in Software Engineering, I bring a diverse set of skills and expertise to the table
 
 if you are interested feel free to  [Download my Resume](./assets/img/Resumes/Resumen%20Ivan%20Weiss%20Van%20Der%20Pol%2003072023.pdf){:target="_blank"}
 ### Languges
 
 I am fluent in English, Spanish (Castilian) and i'm polishing my Dutch (Flemish). Being multilingual enables me to effectively communicate and collaborate with diverse teams and stakeholders, facilitating seamless project execution.
-
-| Languages | Speech   | Reading   | Writing   |
-|-----------|----------|-----------|-----------|
-| English   | Native   | Native    | Native    |
-| Spanish   | Native   | Native    | Native    |
-| Dutch     | Native   | Intermediate | Beginner |
-
+| Languages | Speech   | Reading   | Writing   | Flag |
+|-----------|----------|-----------|-----------|------|
+| English   | Native   | Native    | Native    | <img src="/workspaces/IvanWeissVanDerPolGH.github.io/assets/img/flags/usa_flag.png" alt="USA Flag" style="width:30px;height:30px;border-radius:50%;"> |
+| Spanish   | Native   | Native    | Native    | <img src="/workspaces/IvanWeissVanDerPolGH.github.io/assets/img/flags/spain_flag.png" alt="Spain Flag" style="width:30px;height:30px;border-radius:50%;"> |
+| Dutch     | Native   | Intermediate | Beginner | <img src="/workspaces/IvanWeissVanDerPolGH.github.io/assets/img/flags/netherlands_flag.png" alt="Netherlands Flag" style="width:30px;height:30px;border-radius:50%;"> |
 ## Experience
 
 - QA Engineer (Manual Testing) at WPG.srl - [2018/Oct - Present]
