@@ -9,7 +9,7 @@ Hello, I'm Ivan Weiss, a 24-year-old software developer passionate about craftin
 if you are interested feel free to  [Download my Resume](./assets/img/Resumes/Resumen%20Ivan%20Weiss%20Van%20Der%20Pol%2003072023.pdf){:target="_blank"}
 ### Languges
 
-I am fluent in English, Spanish (Castilian) and i'm polishing my Dutch (Flemish). Being multilingual enables me to effectively communicate and collaborate with diverse teams and stakeholders, facilitating seamless project execution.
+aI am fluent in English, Spanish (Castilian) and i'm polishing my Dutch (Flemish). Being multilingual enables me to effectively communicate and collaborate with diverse teams and stakeholders, facilitating seamless project execution.
 | Languages | Speech         | Reading        | Writing        | Flag                                                                                   |
 |-----------|----------------|----------------|----------------|----------------------------------------------------------------------------------------|
 | English   | Native         | Native         | Native         | <img src="./assets/img/flags/usa_flag.png" alt="USA Flag" style="width:30px; height:30px; border-radius:50%;">       |
