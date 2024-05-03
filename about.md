@@ -10,11 +10,25 @@ if you are interested feel free to  [Download my Resume](./assets/img/Resumes/Re
 ### Languges
 
 I am fluent in English, Spanish, and Dutch, enabling me to communicate effectively with diverse audiences. My language skills have proven invaluable in my professional endeavors, allowing me to collaborate with international teams and engage with clients worldwide.
-| Languages | Speech         | Reading        | Writing        | Flag                                                                                   |
-|-----------|----------------|----------------|----------------|----------------------------------------------------------------------------------------|
-<img src="./assets/img/flags/usa_flag.png" alt="USA Flag" style="width:30px; height:30px; border-radius:50%;">       | English   | Native         | Native         | Native         | |
-<img src="./assets/img/flags/spain_flag.png" alt="Spain Flag" style="width:30px; height:30px; border-radius:50%;">   | Spanish   | Native         | Native         | Native         | |
-<img src="./assets/img/flags/netherlands_flag.png" alt="Netherlands Flag" style="width:30px; height:30px; border-radius:50%;"> | Dutch     | Native         | Intermediate   | Beginner       | |
+
+
+#### English
+- **Speech:** Native  
+- **Reading:** Native  
+- **Writing:** Native  
+- **Flag:** ![USA Flag](./assets/img/flags/usa_flag.png){: style="width:30px; height:30px; border-radius:50%;"}
+
+#### Spanish
+- **Speech:** Native  
+- **Reading:** Native  
+- **Writing:** Native  
+- **Flag:** ![Spain Flag](./assets/img/flags/spain_flag.png){: style="width:30px; height:30px; border-radius:50%;"}
+
+#### Dutch
+- **Speech:** Native  
+- **Reading:** Intermediate  
+- **Writing:** Beginner  
+- **Flag:** ![Netherlands Flag](./assets/img/flags/netherlands_flag.png){: style="width:30px; height:30px; border-radius:50%;"}
 
 
 ## Experience
