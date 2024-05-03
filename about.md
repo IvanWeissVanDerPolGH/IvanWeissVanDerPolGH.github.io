@@ -24,19 +24,58 @@ I am fluent in English, Spanish, and Dutch, enabling me to communicate effective
 
 ## Skills
 
-As a software engineer, I possess a wide range of technical skills that enable me to tackle complex challenges and deliver high-quality solutions. Here are some of my key skills:
+I have honed my skills in a variety of tools and technologies that are essential for software development and testing. Here are some of the key skills that I bring to the table:
 
-| **Automation:**                                                                          | **Data Analysis:**                                                                   | **Version Control:**                                                                |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| <img src="assets/img/logos/Selenium_logo.svg" alt="Selenium" height="70" width="130"  /> | <img src="assets/img/logos/Pandas_logo.svg" alt="Pandas" height="70" width="130"  /> | <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="Git"  /> |
+## Skills
 
-| **Front-end:**                                                                                               | **Back-end:**                                                                                                      | **Databases:**                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="HTML"  />                       | <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" height="50" width="120"  />       | <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="MySQL" height="70" width="130"  /> |
-| <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg" alt="CSS" height="60" width="90"  /> | <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="Python" height="50" width="150"  /> |                                                                                                                 |
-| <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="JS"  />                     | <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="Django"  />                 |                                                                                                                 |
-| <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="React"  />                        |                                                                                                                    |                                                                                                                 |
+I have honed my skills in a variety of tools and technologies that are essential for software development and testing. Here are some of the key skills that I bring to the table:
+
+### Automation:
+
+| Technology                                     | Description                                                                         |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Selenium](assets/img/logos/Selenium_logo.svg) | Automates web browsers, facilitating robust and repeatable test scenarios.          |
+| ![Postman](assets/img/logos/Postman_logo.svg)   | Employed for API testing to ensure the reliability and scalability of backend services. |
+| ![Charles Proxy](assets/img/logos/charles_logo.png) | Used for traffic management and SSL pinning, enhancing security and network reliability. |
+
+### Data Analysis:
+
+| Technology                                  | Description                                                                         |
+| ------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Pandas](assets/img/logos/Pandas_logo.svg) | Facilitates data manipulation and analysis, enabling complex data workflows in Python environments. |
+
+### Version Control:
+
+| Technology                                      | Description                                                                         |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg) | Essential for tracking changes in source code during software development.           |
+
+### Front-end:
+
+| Technology                                                      | Description                                                                         |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![HTML](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg) | Fundamental for structuring content on the web.                                     |
+| ![CSS](https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg) | Styles web applications for a visually appealing user interface.                     |
+| ![JavaScript](https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg) | Enables interactive web pages and is an essential part of web development.           |
+| ![React](https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg) | A JavaScript library for building user interfaces, particularly single-page applications. |
+
+### Back-end:
+
+| Technology                                                  | Description                                                                         |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Java](https://www.vectorlogo.zone/logos/java/java-horizontal.svg) | Utilized for server-side development to handle the logic of web applications.         |
+| ![Python](https://www.vectorlogo.zone/logos/python/python-horizontal.svg) | Offers versatility for scripting, automation, and rapid application development.       |
+| ![Django](https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg) | A high-level Python web framework that encourages rapid development and clean, pragmatic design. |
+
+### Databases:
+
+| Technology                                                      | Description                                                                         |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![MySQL](https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg) | A relational database management system used for storing and retrieving data efficiently. |
+| ![MongoDB](assets/img/logos/mongo_logo.jpg) | Utilized for database testing and data management, ensuring data integrity and optimal performance. |
+
 
 ## PASSION AND INTERESTS
 
 Apart from coding, I am particularly interested in automation, Python, and leveraging tools like Selenium for efficient and scalable testing. I thrive on learning new technologies and staying up-to-date with industry trends, allowing me to deliver cutting-edge solutions.
+
